@@ -19,12 +19,12 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Stream;
+
 
 @SpringBootApplication
 public class EbankingBackendApplication {
@@ -112,3 +112,4 @@ public class EbankingBackendApplication {
     }
 
 }
+
